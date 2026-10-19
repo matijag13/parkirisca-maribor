@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Vzorčni podatki: imena ulic so resnična, koordinate in kapacitete so okvirne vrednosti za demonstracijo. -->
+<parkirisca>
+  <parkirisce id="P01">
+    <ime>Parkirišče Sodna ulica</ime>
+    <naslov>Sodna ulica</naslov>
+    <tip>ograjeno</tip>
+    <lat>46.5571</lat>
+    <lon>15.6417</lon>
+    <kapaciteta>120</kapaciteta>
+    <idCone>Z07</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P02">
+    <ime>Parkirišče Mlinska ulica</ime>
+    <naslov>Mlinska ulica</naslov>
+    <tip>ograjeno</tip>
+    <lat>46.5551</lat>
+    <lon>15.6388</lon>
+    <kapaciteta>150</kapaciteta>
+    <idCone>Z08</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P03">
+    <ime>Parkirišče Rakušev trg</ime>
+    <naslov>Rakušev trg</naslov>
+    <tip>ograjeno</tip>
+    <lat>46.5563</lat>
+    <lon>15.6492</lon>
+    <kapaciteta>80</kapaciteta>
+    <idCone>Z09</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P04">
+    <ime>Parkirišče Pohorska vzpenjača</ime>
+    <naslov>Pohorska vzpenjača</naslov>
+    <tip>ograjeno</tip>
+    <lat>46.5497</lat>
+    <lon>15.6253</lon>
+    <kapaciteta>200</kapaciteta>
+    <idCone>Z10</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P05">
+    <ime>Slomškov trg</ime>
+    <naslov>Slomškov trg</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5575</lat>
+    <lon>15.6477</lon>
+    <kapaciteta>25</kapaciteta>
+    <idCone>Z02</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P06">
+    <ime>Gosposka ulica</ime>
+    <naslov>Gosposka ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5588</lat>
+    <lon>15.6421</lon>
+    <kapaciteta>18</kapaciteta>
+    <idCone>Z01</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P07">
+    <ime>Vetrinjska ulica</ime>
+    <naslov>Vetrinjska ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5597</lat>
+    <lon>15.6484</lon>
+    <kapaciteta>22</kapaciteta>
+    <idCone>Z01</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P08">
+    <ime>Trg Leona Štuklja</ime>
+    <naslov>Trg Leona Štuklja</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5579</lat>
+    <lon>15.6465</lon>
+    <kapaciteta>30</kapaciteta>
+    <idCone>Z01</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P09">
+    <ime>Lavričeva ulica</ime>
+    <naslov>Lavričeva ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5542</lat>
+    <lon>15.6420</lon>
+    <kapaciteta>35</kapaciteta>
+    <idCone>Z04</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P10">
+    <ime>Kamniška ulica</ime>
+    <naslov>Kamniška ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5528</lat>
+    <lon>15.6450</lon>
+    <idCone>Z05</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba>Število mest ni znano</opomba>
+  </parkirisce>
+  <parkirisce id="P11">
+    <ime>Koroška cesta (kampus)</ime>
+    <naslov>Koroška cesta</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5617</lat>
+    <lon>15.6375</lon>
+    <kapaciteta>40</kapaciteta>
+    <idCone>Z06</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P12">
+    <ime>Partizanska cesta</ime>
+    <naslov>Partizanska cesta</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5603</lat>
+    <lon>15.6545</lon>
+    <kapaciteta>28</kapaciteta>
+    <idCone>Z03</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P13">
+    <ime>Smetanova ulica</ime>
+    <naslov>Smetanova ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5611</lat>
+    <lon>15.6492</lon>
+    <kapaciteta>16</kapaciteta>
+    <idCone>Z01</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba/>
+  </parkirisce>
+  <parkirisce id="P14">
+    <ime>Neplačljivo parkirišče (primer)</ime>
+    <naslov>Ob Dravi</naslov>
+    <tip>ograjeno</tip>
+    <lat>46.5560</lat>
+    <lon>15.6522</lon>
+    <kapaciteta/>
+    <idCone>Z11</idCone>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba>Vzorčni vnos</opomba>
+  </parkirisce>
+</parkirisca>

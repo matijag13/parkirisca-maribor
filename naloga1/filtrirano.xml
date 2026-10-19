@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filtrirano stevilo="8">
+  <parkirisce id="P08">
+    <ime>Trg Leona Štuklja</ime>
+    <naslov>Trg Leona Štuklja</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5579</lat>
+    <lon>15.6465</lon>
+    <kapaciteta>30</kapaciteta>
+    <razdaljaDoCiljaM>63</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba />
+    <cona id="Z01">
+      <ime>Bela cona (središče, cone 1–11)</ime>
+      <tip>bela</tip>
+      <cenaNaUro>1.0</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-07-23</datumVira>
+    </cona>
+  </parkirisce>
+  <parkirisce id="P07">
+    <ime>Vetrinjska ulica</ime>
+    <naslov>Vetrinjska ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5597</lat>
+    <lon>15.6484</lon>
+    <kapaciteta>22</kapaciteta>
+    <razdaljaDoCiljaM>251</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba />
+    <cona id="Z01">
+      <ime>Bela cona (središče, cone 1–11)</ime>
+      <tip>bela</tip>
+      <cenaNaUro>1.0</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-07-23</datumVira>
+    </cona>
+  </parkirisce>
+  <parkirisce id="P06">
+    <ime>Gosposka ulica</ime>
+    <naslov>Gosposka ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5588</lat>
+    <lon>15.6421</lon>
+    <kapaciteta>18</kapaciteta>
+    <razdaljaDoCiljaM>412</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba />
+    <cona id="Z01">
+      <ime>Bela cona (središče, cone 1–11)</ime>
+      <tip>bela</tip>
+      <cenaNaUro>1.0</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-07-23</datumVira>
+    </cona>
+  </parkirisce>
+  <parkirisce id="P13">
+    <ime>Smetanova ulica</ime>
+    <naslov>Smetanova ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5611</lat>
+    <lon>15.6492</lon>
+    <kapaciteta>16</kapaciteta>
+    <razdaljaDoCiljaM>418</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba />
+    <cona id="Z01">
+      <ime>Bela cona (središče, cone 1–11)</ime>
+      <tip>bela</tip>
+      <cenaNaUro>1.0</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-07-23</datumVira>
+    </cona>
+  </parkirisce>
+  <parkirisce id="P14">
+    <ime>Neplačljivo parkirišče (primer)</ime>
+    <naslov>Ob Dravi</naslov>
+    <tip>ograjeno</tip>
+    <lat>46.556</lat>
+    <lon>15.6522</lon>
+    <kapaciteta />
+    <razdaljaDoCiljaM>422</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba>Vzorčni vnos</opomba>
+    <cona id="Z11">
+      <ime>Neplačljivo (primer)</ime>
+      <tip>brezplacno</tip>
+      <cenaNaUro>0.0</cenaNaUro>
+      <placljivoOd />
+      <placljivoDo />
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira />
+    </cona>
+  </parkirisce>
+  <parkirisce id="P09">
+    <ime>Lavričeva ulica</ime>
+    <naslov>Lavričeva ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5542</lat>
+    <lon>15.642</lon>
+    <kapaciteta>35</kapaciteta>
+    <razdaljaDoCiljaM>549</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba />
+    <cona id="Z04">
+      <ime>Cona 6 (Lavričeva ulica)</ime>
+      <tip>bela</tip>
+      <cenaNaUro>1.0</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-12-07</datumVira>
+    </cona>
+  </parkirisce>
+  <parkirisce id="P10">
+    <ime>Kamniška ulica</ime>
+    <naslov>Kamniška ulica</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5528</lat>
+    <lon>15.645</lon>
+    <kapaciteta />
+    <razdaljaDoCiljaM>560</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba>Število mest ni znano</opomba>
+    <cona id="Z05">
+      <ime>Kamniška ulica</ime>
+      <tip>bela</tip>
+      <cenaNaUro>1.0</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-12-07</datumVira>
+    </cona>
+  </parkirisce>
+  <parkirisce id="P12">
+    <ime>Partizanska cesta</ime>
+    <naslov>Partizanska cesta</naslov>
+    <tip>ob cesti</tip>
+    <lat>46.5603</lat>
+    <lon>15.6545</lon>
+    <kapaciteta>28</kapaciteta>
+    <razdaljaDoCiljaM>634</razdaljaDoCiljaM>
+    <datumVnosa>2026-10-18</datumVnosa>
+    <opomba />
+    <cona id="Z03">
+      <ime>Izven središča mesta</ime>
+      <tip>bela</tip>
+      <cenaNaUro>0.6</cenaNaUro>
+      <placljivoOd>08:00</placljivoOd>
+      <placljivoDo>19:00</placljivoDo>
+      <vikendBrezplacno>true</vikendBrezplacno>
+      <datumVira>2023-07-23</datumVira>
+    </cona>
+  </parkirisce>
+</filtrirano>

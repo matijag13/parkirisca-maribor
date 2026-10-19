@@ -1,0 +1,194 @@
+[
+  {
+    "id": "P08",
+    "ime": "Trg Leona Štuklja",
+    "naslov": "Trg Leona Štuklja",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5579,
+      "lon": 15.6465
+    },
+    "kapaciteta": 30,
+    "razdaljaDoCiljaM": 63,
+    "datumVnosa": "2026-10-18",
+    "opomba": null,
+    "cona": {
+      "id": "Z01",
+      "ime": "Bela cona (središče, cone 1–11)",
+      "tip": "bela",
+      "cenaNaUro": 1.0,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-07-23"
+    }
+  },
+  {
+    "id": "P07",
+    "ime": "Vetrinjska ulica",
+    "naslov": "Vetrinjska ulica",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5597,
+      "lon": 15.6484
+    },
+    "kapaciteta": 22,
+    "razdaljaDoCiljaM": 251,
+    "datumVnosa": "2026-10-18",
+    "opomba": null,
+    "cona": {
+      "id": "Z01",
+      "ime": "Bela cona (središče, cone 1–11)",
+      "tip": "bela",
+      "cenaNaUro": 1.0,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-07-23"
+    }
+  },
+  {
+    "id": "P06",
+    "ime": "Gosposka ulica",
+    "naslov": "Gosposka ulica",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5588,
+      "lon": 15.6421
+    },
+    "kapaciteta": 18,
+    "razdaljaDoCiljaM": 412,
+    "datumVnosa": "2026-10-18",
+    "opomba": null,
+    "cona": {
+      "id": "Z01",
+      "ime": "Bela cona (središče, cone 1–11)",
+      "tip": "bela",
+      "cenaNaUro": 1.0,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-07-23"
+    }
+  },
+  {
+    "id": "P13",
+    "ime": "Smetanova ulica",
+    "naslov": "Smetanova ulica",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5611,
+      "lon": 15.6492
+    },
+    "kapaciteta": 16,
+    "razdaljaDoCiljaM": 418,
+    "datumVnosa": "2026-10-18",
+    "opomba": null,
+    "cona": {
+      "id": "Z01",
+      "ime": "Bela cona (središče, cone 1–11)",
+      "tip": "bela",
+      "cenaNaUro": 1.0,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-07-23"
+    }
+  },
+  {
+    "id": "P14",
+    "ime": "Neplačljivo parkirišče (primer)",
+    "naslov": "Ob Dravi",
+    "tip": "ograjeno",
+    "lokacija": {
+      "lat": 46.556,
+      "lon": 15.6522
+    },
+    "kapaciteta": null,
+    "razdaljaDoCiljaM": 422,
+    "datumVnosa": "2026-10-18",
+    "opomba": "Vzorčni vnos",
+    "cona": {
+      "id": "Z11",
+      "ime": "Neplačljivo (primer)",
+      "tip": "brezplacno",
+      "cenaNaUro": 0.0,
+      "placljivoOd": null,
+      "placljivoDo": null,
+      "vikendBrezplacno": true,
+      "datumVira": null
+    }
+  },
+  {
+    "id": "P09",
+    "ime": "Lavričeva ulica",
+    "naslov": "Lavričeva ulica",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5542,
+      "lon": 15.642
+    },
+    "kapaciteta": 35,
+    "razdaljaDoCiljaM": 549,
+    "datumVnosa": "2026-10-18",
+    "opomba": null,
+    "cona": {
+      "id": "Z04",
+      "ime": "Cona 6 (Lavričeva ulica)",
+      "tip": "bela",
+      "cenaNaUro": 1.0,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-12-07"
+    }
+  },
+  {
+    "id": "P10",
+    "ime": "Kamniška ulica",
+    "naslov": "Kamniška ulica",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5528,
+      "lon": 15.645
+    },
+    "kapaciteta": null,
+    "razdaljaDoCiljaM": 560,
+    "datumVnosa": "2026-10-18",
+    "opomba": "Število mest ni znano",
+    "cona": {
+      "id": "Z05",
+      "ime": "Kamniška ulica",
+      "tip": "bela",
+      "cenaNaUro": 1.0,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-12-07"
+    }
+  },
+  {
+    "id": "P12",
+    "ime": "Partizanska cesta",
+    "naslov": "Partizanska cesta",
+    "tip": "ob cesti",
+    "lokacija": {
+      "lat": 46.5603,
+      "lon": 15.6545
+    },
+    "kapaciteta": 28,
+    "razdaljaDoCiljaM": 634,
+    "datumVnosa": "2026-10-18",
+    "opomba": null,
+    "cona": {
+      "id": "Z03",
+      "ime": "Izven središča mesta",
+      "tip": "bela",
+      "cenaNaUro": 0.6,
+      "placljivoOd": "08:00",
+      "placljivoDo": "19:00",
+      "vikendBrezplacno": true,
+      "datumVira": "2023-07-23"
+    }
+  }
+]

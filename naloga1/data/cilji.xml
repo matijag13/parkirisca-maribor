@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Vzorčni podatki: koordinate so okvirne. idParkirisca je privzeto bližnje parkirišče (lahko je prazen). -->
+<cilji>
+  <cilj id="C01">
+    <ime>Glavni trg</ime>
+    <naslov>Glavni trg</naslov>
+    <kategorija>središče</kategorija>
+    <lat>46.5594</lat>
+    <lon>15.6458</lon>
+    <idParkirisca>P08</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C02">
+    <ime>Univerza v Mariboru (rektorat)</ime>
+    <naslov>Slomškov trg 15</naslov>
+    <kategorija>izobraževanje</kategorija>
+    <lat>46.5576</lat>
+    <lon>15.6472</lon>
+    <idParkirisca>P05</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C03">
+    <ime>Mariborska knjižnica</ime>
+    <naslov>Rotovški trg 2</naslov>
+    <kategorija>kultura</kategorija>
+    <lat>46.5589</lat>
+    <lon>15.6455</lon>
+    <idParkirisca>P08</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C04">
+    <ime>Mariborski grad</ime>
+    <naslov>Vojašniška ulica 8</naslov>
+    <kategorija>kultura</kategorija>
+    <lat>46.5584</lat>
+    <lon>15.6419</lon>
+    <idParkirisca>P01</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C05">
+    <ime>SNG Maribor</ime>
+    <naslov>Slovenska ulica 27</naslov>
+    <kategorija>kultura</kategorija>
+    <lat>46.5576</lat>
+    <lon>15.6445</lon>
+    <idParkirisca>P08</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C06">
+    <ime>Železniška postaja Maribor</ime>
+    <naslov>Partizanska cesta 50</naslov>
+    <kategorija>promet</kategorija>
+    <lat>46.5597</lat>
+    <lon>15.6536</lon>
+    <idParkirisca>P12</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C07">
+    <ime>Mestna občina Maribor</ime>
+    <naslov>Ulica heroja Staneta 1</naslov>
+    <kategorija>uprava</kategorija>
+    <lat>46.5570</lat>
+    <lon>15.6470</lon>
+    <idParkirisca>P03</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C08">
+    <ime>Pohorska vzpenjača</ime>
+    <naslov>Kidričeva ulica</naslov>
+    <kategorija>šport in rekreacija</kategorija>
+    <lat>46.5497</lat>
+    <lon>15.6249</lon>
+    <idParkirisca>P04</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C09">
+    <ime>Študentski kampus</ime>
+    <naslov>Koroška cesta</naslov>
+    <kategorija>izobraževanje</kategorija>
+    <lat>46.5619</lat>
+    <lon>15.6372</lon>
+    <idParkirisca>P11</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C10">
+    <ime>Lent</ime>
+    <naslov>Dravska ulica</naslov>
+    <kategorija>središče</kategorija>
+    <lat>46.5600</lat>
+    <lon>15.6405</lon>
+    <idParkirisca/>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+  <cilj id="C11">
+    <ime>Narodni dom Maribor</ime>
+    <naslov>Ulica kneza Koclja 9</naslov>
+    <kategorija>kultura</kategorija>
+    <lat>46.5575</lat>
+    <lon>15.6455</lon>
+    <idParkirisca>P08</idParkirisca>
+    <datumVnosa>2026-10-18</datumVnosa>
+  </cilj>
+</cilji>
