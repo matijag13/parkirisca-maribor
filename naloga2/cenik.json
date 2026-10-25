@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "vir": "https://www.marprom.si",
+    "strani": [
+      "https://www.marprom.si/ceniki-in-vozovnice/javna-parkirisca-in-pajek/",
+      "https://www.marprom.si/ograjena-parkirisca/"
+    ],
+    "pridobljeno": "2026-10-25T11:07:10+01:00",
+    "veljaOd": "2026-04-01",
+    "opozorila": []
+  },
+  "belaCona": {
+    "urnaCena": [
+      {
+        "koda": "311",
+        "cenaNaUro": 1.8,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "312",
+        "cenaNaUro": 1.0,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "314",
+        "cenaNaUro": 1.0,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "318",
+        "cenaNaUro": 1.0,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "313",
+        "cenaNaUro": 0.6,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "316",
+        "cenaNaUro": 0.6,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "317",
+        "cenaNaUro": 0.6,
+        "avtodomi": false,
+        "maxNaDan": null
+      },
+      {
+        "koda": "315",
+        "cenaNaUro": 1.6,
+        "avtodomi": true,
+        "maxNaDan": 15.7
+      }
+    ],
+    "mesecniNajemInKartice": [
+      {
+        "naziv": "Mesečni najem – pogodbena vezava od 1 do 6 mesecev",
+        "cena": 68.02,
+        "maxNaDan": null,
+        "besedilo": "68,02 €"
+      },
+      {
+        "naziv": "Mesečni najem – pogodbena vezava od 7 do 12 mesecev",
+        "cena": 61.22,
+        "maxNaDan": null,
+        "besedilo": "61,22 €"
+      },
+      {
+        "naziv": "Mesečni najem – pogodbena vezava od 12 mesecev ali več",
+        "cena": 57.82,
+        "maxNaDan": null,
+        "besedilo": "57,82 €"
+      },
+      {
+        "naziv": "Mesečni najem – ostale parkirne površine, določene s prometno signalizacijo",
+        "cena": 31.4,
+        "maxNaDan": null,
+        "besedilo": "31,40 €"
+      },
+      {
+        "naziv": "Vrednostna kartica 10",
+        "cena": 10.0,
+        "maxNaDan": null,
+        "besedilo": "10,00 €"
+      },
+      {
+        "naziv": "Vrednostna kartica 20",
+        "cena": 20.0,
+        "maxNaDan": null,
+        "besedilo": "20,00 €"
+      },
+      {
+        "naziv": "Vrednostna kartica 50",
+        "cena": 50.0,
+        "maxNaDan": null,
+        "besedilo": "50,00 €"
+      },
+      {
+        "naziv": "Storitev ponovnega polnjenja vrednostne kartice",
+        "cena": 0.0,
+        "maxNaDan": null,
+        "besedilo": "brezplačno"
+      },
+      {
+        "naziv": "Izdaja in programiranje kartice*",
+        "cena": 20.0,
+        "maxNaDan": null,
+        "besedilo": "20,00 €"
+      }
+    ]
+  },
+  "ograjenaParkirisca": {
+    "parkirisca": [
+      {
+        "ime": "Rakušev trg",
+        "steviloMest": 86,
+        "steviloMestEl": null
+      },
+      {
+        "ime": "Mlinska ulica",
+        "steviloMest": 53,
+        "steviloMestEl": 4
+      },
+      {
+        "ime": "Sodna ulica/Ulica talcev",
+        "steviloMest": 121,
+        "steviloMestEl": null
+      }
+    ],
+    "placljivost": {
+      "delavnik": {
+        "od": 6,
+        "do": 22
+      },
+      "sobota": {
+        "od": 8,
+        "do": 13
+      }
+    },
+    "cenaNaUro": 1.6,
+    "cenik": [
+      {
+        "naziv": "Ura parkiranja",
+        "cena": 1.6,
+        "maxNaDan": null,
+        "besedilo": "1,60 €"
+      },
+      {
+        "naziv": "Izguba parkirnega listka",
+        "cena": 20.0,
+        "maxNaDan": null,
+        "besedilo": "20,00 €"
+      },
+      {
+        "naziv": "Mesečni najem – pogodbena vezava od 1 do 6 mesecev",
+        "cena": 68.02,
+        "maxNaDan": null,
+        "besedilo": "68,02 €"
+      },
+      {
+        "naziv": "Mesečni najem – pogodbena vezava od 7 do 12 mesece",
+        "cena": 61.22,
+        "maxNaDan": null,
+        "besedilo": "61,22 €"
+      },
+      {
+        "naziv": "Mesečni najem – pogodbena vezava od 12 mesecev ali več",
+        "cena": 57.82,
+        "maxNaDan": null,
+        "besedilo": "57,82 €"
+      },
+      {
+        "naziv": "Izdaja in programiranje kartice*",
+        "cena": 20.0,
+        "maxNaDan": null,
+        "besedilo": "20,00 €"
+      }
+    ],
+    "mesecniNajem": [
+      {
+        "naziv": "1–6 mesecev",
+        "cena": 68.02
+      },
+      {
+        "naziv": "7–12 mesecev",
+        "cena": 61.22
+      },
+      {
+        "naziv": "12 mesecev ali več",
+        "cena": 57.82
+      }
+    ],
+    "prostaMestaZaMesecniNajem": false
+  },
+  "pajek": [
+    {
+      "naziv": "Odvoz nepravilno parkiranega ali zapuščenega vozila",
+      "cena": 100.0,
+      "maxNaDan": null,
+      "besedilo": "100 €"
+    },
+    {
+      "naziv": "Hramba nepravilno parkiranega ali zapuščenega vozila (na dan)",
+      "cena": 5.0,
+      "maxNaDan": null,
+      "besedilo": "5,00 €"
+    }
+  ]
+}

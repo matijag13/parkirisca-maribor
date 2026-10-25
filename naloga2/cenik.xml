@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cenik>
+  <meta>
+    <vir>https://www.marprom.si</vir>
+    <strani>
+      <stran>https://www.marprom.si/ceniki-in-vozovnice/javna-parkirisca-in-pajek/</stran>
+      <stran>https://www.marprom.si/ograjena-parkirisca/</stran>
+    </strani>
+    <pridobljeno>2026-10-25T11:07:10+01:00</pridobljeno>
+    <veljaOd>2026-04-01</veljaOd>
+    <opozorila />
+  </meta>
+  <belaCona>
+    <urnaCena>
+      <obmocje>
+        <koda>311</koda>
+        <cenaNaUro>1.8</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>312</koda>
+        <cenaNaUro>1.0</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>314</koda>
+        <cenaNaUro>1.0</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>318</koda>
+        <cenaNaUro>1.0</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>313</koda>
+        <cenaNaUro>0.6</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>316</koda>
+        <cenaNaUro>0.6</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>317</koda>
+        <cenaNaUro>0.6</cenaNaUro>
+        <avtodomi>false</avtodomi>
+        <maxNaDan />
+      </obmocje>
+      <obmocje>
+        <koda>315</koda>
+        <cenaNaUro>1.6</cenaNaUro>
+        <avtodomi>true</avtodomi>
+        <maxNaDan>15.7</maxNaDan>
+      </obmocje>
+    </urnaCena>
+    <mesecniNajemInKartice>
+      <postavka>
+        <naziv>Mesečni najem – pogodbena vezava od 1 do 6 mesecev</naziv>
+        <cena>68.02</cena>
+        <maxNaDan />
+        <besedilo>68,02 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Mesečni najem – pogodbena vezava od 7 do 12 mesecev</naziv>
+        <cena>61.22</cena>
+        <maxNaDan />
+        <besedilo>61,22 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Mesečni najem – pogodbena vezava od 12 mesecev ali več</naziv>
+        <cena>57.82</cena>
+        <maxNaDan />
+        <besedilo>57,82 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Mesečni najem – ostale parkirne površine, določene s prometno signalizacijo</naziv>
+        <cena>31.4</cena>
+        <maxNaDan />
+        <besedilo>31,40 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Vrednostna kartica 10</naziv>
+        <cena>10.0</cena>
+        <maxNaDan />
+        <besedilo>10,00 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Vrednostna kartica 20</naziv>
+        <cena>20.0</cena>
+        <maxNaDan />
+        <besedilo>20,00 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Vrednostna kartica 50</naziv>
+        <cena>50.0</cena>
+        <maxNaDan />
+        <besedilo>50,00 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Storitev ponovnega polnjenja vrednostne kartice</naziv>
+        <cena>0.0</cena>
+        <maxNaDan />
+        <besedilo>brezplačno</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Izdaja in programiranje kartice*</naziv>
+        <cena>20.0</cena>
+        <maxNaDan />
+        <besedilo>20,00 €</besedilo>
+      </postavka>
+    </mesecniNajemInKartice>
+  </belaCona>
+  <ograjenaParkirisca>
+    <parkirisca>
+      <parkirisce>
+        <ime>Rakušev trg</ime>
+        <steviloMest>86</steviloMest>
+        <steviloMestEl />
+      </parkirisce>
+      <parkirisce>
+        <ime>Mlinska ulica</ime>
+        <steviloMest>53</steviloMest>
+        <steviloMestEl>4</steviloMestEl>
+      </parkirisce>
+      <parkirisce>
+        <ime>Sodna ulica/Ulica talcev</ime>
+        <steviloMest>121</steviloMest>
+        <steviloMestEl />
+      </parkirisce>
+    </parkirisca>
+    <placljivost>
+      <delavnik>
+        <od>6</od>
+        <do>22</do>
+      </delavnik>
+      <sobota>
+        <od>8</od>
+        <do>13</do>
+      </sobota>
+    </placljivost>
+    <cenaNaUro>1.6</cenaNaUro>
+    <cenik>
+      <postavka>
+        <naziv>Ura parkiranja</naziv>
+        <cena>1.6</cena>
+        <maxNaDan />
+        <besedilo>1,60 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Izguba parkirnega listka</naziv>
+        <cena>20.0</cena>
+        <maxNaDan />
+        <besedilo>20,00 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Mesečni najem – pogodbena vezava od 1 do 6 mesecev</naziv>
+        <cena>68.02</cena>
+        <maxNaDan />
+        <besedilo>68,02 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Mesečni najem – pogodbena vezava od 7 do 12 mesece</naziv>
+        <cena>61.22</cena>
+        <maxNaDan />
+        <besedilo>61,22 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Mesečni najem – pogodbena vezava od 12 mesecev ali več</naziv>
+        <cena>57.82</cena>
+        <maxNaDan />
+        <besedilo>57,82 €</besedilo>
+      </postavka>
+      <postavka>
+        <naziv>Izdaja in programiranje kartice*</naziv>
+        <cena>20.0</cena>
+        <maxNaDan />
+        <besedilo>20,00 €</besedilo>
+      </postavka>
+    </cenik>
+    <mesecniNajem>
+      <postavka>
+        <naziv>1–6 mesecev</naziv>
+        <cena>68.02</cena>
+      </postavka>
+      <postavka>
+        <naziv>7–12 mesecev</naziv>
+        <cena>61.22</cena>
+      </postavka>
+      <postavka>
+        <naziv>12 mesecev ali več</naziv>
+        <cena>57.82</cena>
+      </postavka>
+    </mesecniNajem>
+    <prostaMestaZaMesecniNajem>false</prostaMestaZaMesecniNajem>
+  </ograjenaParkirisca>
+  <pajek>
+    <postavka>
+      <naziv>Odvoz nepravilno parkiranega ali zapuščenega vozila</naziv>
+      <cena>100.0</cena>
+      <maxNaDan />
+      <besedilo>100 €</besedilo>
+    </postavka>
+    <postavka>
+      <naziv>Hramba nepravilno parkiranega ali zapuščenega vozila (na dan)</naziv>
+      <cena>5.0</cena>
+      <maxNaDan />
+      <besedilo>5,00 €</besedilo>
+    </postavka>
+  </pajek>
+</cenik>
