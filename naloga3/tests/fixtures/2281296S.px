@@ -1,0 +1,63 @@
+CHARSET="ANSI";
+AXIS-VERSION="2013";
+CODEPAGE="windows-1250";
+LANGUAGE="sl";
+LANGUAGES="sl","en";
+CREATION-DATE="20260730 10:30";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="2281296S";
+SUBJECT-CODE="48";
+DESCRIPTION="Letno število poti (1.000) v mestnih obèinah Ljubljana in Maribor po glavnem prevoznem sredstvu, Slovenija, veèletno";
+TITLE="Letno število poti po: MESTNA OBÈINA, GLAVNO PREVOZNO SREDSTVO, LETO";
+TITLE[en]="Annual number of trips by URBAN MUNICIPALITY, MAIN MODE OF TRANSPORT and YEAR";
+CONTENTS="Letno število poti";
+UNITS="število v 1000";
+STUB="MESTNA OBÈINA","GLAVNO PREVOZNO SREDSTVO";
+STUB[en]="URBAN MUNICIPALITY","MAIN MODE OF TRANSPORT";
+HEADING="LETO";
+VALUES("MESTNA OBÈINA")="Ljubljana","Maribor";
+VALUES("GLAVNO PREVOZNO SREDSTVO")="Glavno prevozno sredstvo - SKUPAJ","Osebni avto - skupaj","..osebni avto kot voznik","..osebni avto kot sopotnik","Taksi","Kombi, avtodom",
+"Motorno kolo, moped","Avtobus - skupaj","..mestni avtobus","..avtobus (medkrajevni, turistièni)","Vlak","Kolo","Peš, tek","Drugo prevozno sredstvo";
+VALUES("LETO")="2017","2021","2025";
+CODES("MESTNA OBÈINA")="1","2";
+CODES("GLAVNO PREVOZNO SREDSTVO")="TOT","AVTO","4","3","6","5","10","BUS","7","8","9","2","1","11";
+CODES("LETO")="2017","2021","2025";
+LAST-UPDATED="20260925 10:30";
+SOURCE="Statistièni urad Republike Slovenije";
+NOTEX="Nekateri seštevki se zaradi zaokroževanja ne ujemajo.##Število poti zajema tiste poti, ki so bile v celoti opravljene v mejah mestnih obèin "
+"Ljubljana ali Maribor, in tiste, ki so se v teh obèinah le zaèele ali le konèale.";
+DATASYMBOL1="N";
+DATASYMBOL2="-";
+DATASYMBOL4="z";
+DATANOTECELL("1","6","2017")=" M";
+DATANOTECELL("2","BUS","2017")=" M";
+DATA=
+359253 280389 324690 
+223135 170668 203386 
+179976 138038 164933 
+43159 32630 38453 
+1264 "." "." 
+3655 4069 3398 
+"." "." "." 
+29257 14169 23230 
+23095 9453 17242 
+6162 4716 5988 
+4852 3693 6131 
+25969 28423 23782 
+69735 55708 59665 
+"." "." 3240 
+131943 94017 117290 
+89654 65628 79153 
+69762 53603 64123 
+19893 12025 15030 
+"." "." "." 
+"." 2221 "." 
+"." "." "." 
+7171 4290 6870 
+3860 2224 3918 
+3310 2066 2952 
+"." "." 656 
+5145 3870 4907 
+27247 16343 22774 
+"." "." "."  ;

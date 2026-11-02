@@ -1,0 +1,36 @@
+:root {
+  --bg: #f6f7f9; --kartica: #ffffff; --besedilo: #1c2430; --tiho: #5b6675; --rob: #dde1e7;
+  --poudarek: #c2410c; --osnova: #2f6f9f; --os: #e5e8ed;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14181d; --kartica: #1d232b; --besedilo: #e6e9ee; --tiho: #9aa5b3; --rob: #2e3742; --poudarek: #fb923c; --osnova: #6aa9d8; --os: #2e3742; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--besedilo); font: 15px/1.5 system-ui, "Segoe UI", sans-serif; }
+header, main, footer { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 28px; }
+h1 { margin: 0 0 4px; font-size: 1.7rem; }
+header p { margin: 0 0 20px; color: var(--tiho); max-width: 70ch; }
+h2 { margin: 0 0 12px; font-size: 1.1rem; }
+.kartice { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.kartica { background: var(--kartica); border: 1px solid var(--rob); border-radius: 10px; padding: 12px 14px; }
+.kartica .vrednost { font-size: 1.7rem; font-weight: 650; }
+.kartica .oznaka { color: var(--tiho); font-size: .85rem; }
+.plosca { background: var(--kartica); border: 1px solid var(--rob); border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+.kontrole { display: flex; flex-wrap: wrap; gap: 12px 18px; margin-bottom: 12px; align-items: end; }
+.kontrole label { display: flex; flex-direction: column; font-size: .8rem; color: var(--tiho); gap: 3px; }
+select { font: inherit; color: var(--besedilo); background: var(--bg); border: 1px solid var(--rob); border-radius: 6px; padding: 5px 8px; max-width: 260px; }
+fieldset { border: 1px solid var(--rob); border-radius: 6px; padding: 4px 10px 6px; margin: 0; }
+legend { font-size: .8rem; color: var(--tiho); padding: 0 4px; }
+fieldset label, .kontrole fieldset label { flex-direction: row; align-items: center; gap: 6px; color: var(--besedilo); font-size: .85rem; display: inline-flex; margin-right: 10px; }
+.graf { position: relative; height: 320px; }
+.graf.visok { height: 420px; }
+.dva { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: center; }
+@media (max-width: 760px) { .dva { grid-template-columns: 1fr; } }
+table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--rob); }
+.st { text-align: right; font-variant-numeric: tabular-nums; }
+.opomba { margin: 10px 0 0; color: var(--tiho); font-size: .85rem; }
+.napaka { background: #fdecea; color: #7a1f16; border: 1px solid #f3b5ae; padding: 8px 12px; border-radius: 8px; margin: 8px 0; }
+footer { padding-bottom: 28px; color: var(--tiho); font-size: .85rem; }
+#v-vrste { display: flex; flex-wrap: wrap; gap: 2px 4px; max-width: 560px; }

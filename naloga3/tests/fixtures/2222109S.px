@@ -1,0 +1,93 @@
+CHARSET="ANSI";
+AXIS-VERSION="2013";
+CODEPAGE="windows-1250";
+LANGUAGE="sl";
+LANGUAGES="sl","en";
+CREATION-DATE="20260730 10:30";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="2222109S";
+SUBJECT-CODE="48";
+SUBJECT-AREA="Transport - Transport";
+COPYRIGHT=YES;
+TITLE="Vozila po vrsti pogona in goriva po: LETO, VRSTA VOZILA, VRSTA POGONA IN GORIVA, MERITVE";
+TITLE[en]="Vehicles by fuel type";
+CONTENTS="Vozila po vrsti pogona in goriva";
+UNITS="število";
+STUB="LETO","VRSTA VOZILA","VRSTA POGONA IN GORIVA";
+HEADING="MERITVE";
+VALUES("LETO")="2022","2023","2024","2025";
+VALUES("VRSTA VOZILA")="1.3 Osebni avtomobili (navadni in specializirani)","1.4 Avtobusi in miniavtobusi";
+VALUES("VRSTA POGONA IN GORIVA")="Vrsta pogona in goriva - SKUPAJ","Elektrièni pogon","Bencin","Dizel, biodizel in komb., nafta, plinsko olje","Utekoèinjen naftni plin (LPG) in komb.","Stisnjen zemeljski plin (CNG) in komb.","Hibridni pogon","Drugo";
+VALUES("MERITVE")="Vozila konec leta (31.12.)","Prve registracije vozil - skupaj","Prve registracije novih vozil";
+LAST-UPDATED="20260813 10:30";
+CONTACT="Statistièni urad RS, E: gp.surs@gov.si";
+DATABASE="SI-STAT";
+SOURCE="Statistièni urad Republike Slovenije";
+NOTEX="Podatki so ilustrativni (testna datoteka); opomba z podpièjem; v narekovajih."
+;
+DATA=
+1150000 80500 80500 
+13800 966 966 
+517500 36225 36225 
+460000 32200 32200 
+13800 966 966 
+575 40 40 
+80500 5635 5635 
+63825 4468 4468 
+5000 350 350 
+60 4 4 
+2250 158 158 
+2000 140 140 
+60 4 4 
+2 0 0 
+350 25 25 
+277 19 19 
+1161500 81305 81305 
+20907 1463 1463 
+511060 35774 35774 
+447178 31302 31302 
+13938 976 976 
+581 41 41 
+92920 6504 6504 
+74917 5244 5244 
+5050 354 354 
+91 6 6 
+2222 156 156 
+1944 136 136 
+61 4 4 
+3 0 0 
+404 28 28 
+326 23 23 
+1173000 82110 82110 
+28152 1971 1971 
+504390 35307 35307 
+434010 30381 30381 
+14076 985 985 
+586 41 41 
+105570 7390 7390 
+86216 6035 6035 
+5100 357 357 
+122 9 9 
+2193 154 154 
+1887 132 132 
+61 4 4 
+3 0 0 
+459 32 32 
+375 26 26 
+1184500 82915 82915 
+35535 2487 2487 
+497490 34824 34824 
+420498 29435 29435 
+14214 995 995 
+592 41 41 
+118450 8292 8292 
+97721 6840 6840 
+5150 361 361 
+154 11 11 
+2163 151 151 
+1828 128 128 
+62 4 4 
+3 0 0 
+515 36 36 
+425 30 30 ;

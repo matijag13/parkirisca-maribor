@@ -1,0 +1,30 @@
+CHARSET="ANSI";
+AXIS-VERSION="2013";
+CODEPAGE="windows-1250";
+LANGUAGE="sl";
+LANGUAGES="sl","en";
+DECIMALS=0;
+MATRIX="2281931S";
+TITLE="Kraj parkiranja osebnega avtomobila, uporabljenega za pot na delo po: KRAJ PARKIRANJA, LETO, SPOL";
+UNITS="število";
+STUB="KRAJ PARKIRANJA";
+HEADING="LETO","SPOL";
+VALUES("KRAJ PARKIRANJA")="Parkiranje ob prevozu na delo - SKUPAJ","Na brezplaènem parkirišèu podjetja oz. delovne organizacije","Na brezplaènem parkirišèu, npr. ob cesti ali katerikoli drugi javni površini",
+"Na parkirišèu P&R","Na plaèljivem parkirišèu podjetja oz. delovne organizacije","Na plaèljivem javnem parkirišèu","Drugje";
+VALUES("LETO")="2021","2025";
+VALUES("SPOL")="Spol - SKUPAJ","Moški","Ženske";
+CODES("KRAJ PARKIRANJA")="TOT","1","2","3","4","5","6";
+CODES("LETO")="2021","2025";
+CODES("SPOL")="TOT","1","2";
+LAST-UPDATED="20260813 10:30";
+SOURCE="Statistièni urad Republike Slovenije";
+DATASYMBOL1="N";
+DATASYMBOL2="-";
+DATA=
+412024 232922 179102 395773 227983 167790 
+330176 198045 132131 318860 190177 128683 
+37639 15030 22610 39181 20747 18434 
+"." "." "." "." "." "." 
+13810 6408 7402 17521 7393 10128 
+18085 6009 12076 16752 7416 9336 
+10722 6575 4147 "." "." "."  ;

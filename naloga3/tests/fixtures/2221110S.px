@@ -1,0 +1,42 @@
+CHARSET="ANSI";
+AXIS-VERSION="2013";
+CODEPAGE="windows-1250";
+LANGUAGE="sl";
+LANGUAGES="sl","en";
+CREATION-DATE="20260730 10:30";
+DECIMALS=11;
+SHOWDECIMALS=11;
+MATRIX="2221110S";
+SUBJECT-CODE="48";
+SUBJECT-AREA="Transport - Transport";
+COPYRIGHT=YES;
+TITLE="Nekateri kazalniki transporta po: KAZALNIK, OBÈINE, LETO";
+TITLE[en]="Selected transport indicators";
+CONTENTS="Nekateri kazalniki transporta";
+UNITS="število, leto";
+STUB="KAZALNIK","OBÈINE";
+HEADING="LETO";
+VALUES("KAZALNIK")="Število navadnih osebnih avtomobilov na 1.000 prebivalcev (stopnja motorizacije)","Povpreèna starost navadnih osebnih avtomobilov (leta)";
+VALUES("OBÈINE")="SLOVENIJA","Celje","Koper/Capodistria","Kranj","Ljubljana","Maribor","Murska Sobota";
+VALUES("LETO")="2021","2022","2023","2024","2025";
+LAST-UPDATED="20260813 10:30";
+CONTACT="Statistièni urad RS, E: gp.surs@gov.si";
+DATABASE="SI-STAT";
+SOURCE="Statistièni urad Republike Slovenije";
+NOTEX="Podatki so ilustrativni (testna datoteka); opomba z podpièjem; v narekovajih."
+;
+DATA=
+560.0 566.7 573.4 580.2 586.9 
+744.8 753.7 762.7 771.6 780.6 
+665.7 673.6 681.6 689.6 697.6 
+564.7 571.5 578.3 585.1 591.9 
+498.3 504.3 510.3 516.2 522.2 
+533.0 539.4 545.8 552.2 558.6 
+567.4 574.2 581.0 587.8 594.6 
+10.5 10.7 10.8 10.9 11.1 
+10.5 10.7 10.8 10.9 11.1 
+10.5 10.7 10.8 10.9 11.1 
+10.5 10.7 10.8 10.9 11.1 
+10.5 10.7 10.8 10.9 11.1 
+10.5 10.7 10.8 10.9 11.1 
+"..." 10.7 10.8 10.9 11.1 ;

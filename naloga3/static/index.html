@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Promet in parkiranje v Mariboru</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>Promet in parkiranje v Mariboru</h1>
+  <p>Odprti podatki SURS v formatu PC-Axis: vozni park, motorizacija, izbira prevoza in parkiranje. Grafi se ob odprtju strani naložijo iz strežnika, ki podatke sproti filtrira in združuje.</p>
+</header>
+
+<main>
+  <section class="kartice" id="kartice" aria-live="polite"></section>
+
+  <section class="plosca">
+    <h2>Vozni park v občini</h2>
+    <div class="kontrole">
+      <label>Občina <select id="v-obcina"></select></label>
+      <label>Od leta <select id="v-od"></select></label>
+      <label>Prikaz <select id="v-nacin"><option value="vrednosti">Število vozil</option><option value="indeks">Indeks rasti (prvo leto = 100)</option></select></label>
+      <fieldset id="v-vrste"><legend>Vrste vozil</legend></fieldset>
+    </div>
+    <div class="graf"><canvas id="g-trend"></canvas></div>
+    <p class="opomba" id="o-trend"></p>
+  </section>
+
+  <section class="plosca">
+    <h2>Lestvica občin po številu vozil</h2>
+    <div class="kontrole">
+      <label>Leto <select id="l-leto"></select></label>
+      <label>Vrsta <select id="l-vrsta"></select></label>
+      <label>Število občin <select id="l-top"><option>5</option><option selected>10</option><option>20</option></select></label>
+    </div>
+    <div class="graf visok"><canvas id="g-lestvica"></canvas></div>
+    <p class="opomba" id="o-lestvica"></p>
+  </section>
+
+  <section class="plosca">
+    <h2>Stopnja motorizacije (avtomobili na 1.000 prebivalcev)</h2>
+    <div class="kontrole">
+      <label>Primerjaj z <select id="m-primerjava"></select></label>
+    </div>
+    <div class="graf"><canvas id="g-motorizacija"></canvas></div>
+  </section>
+
+  <section class="plosca">
+    <h2>Lestvica občin po stopnji motorizacije</h2>
+    <div class="kontrole">
+      <label>Leto <select id="ml-leto"></select></label>
+    </div>
+    <div class="graf visok"><canvas id="g-motlestvica"></canvas></div>
+    <p class="opomba" id="o-motlestvica"></p>
+  </section>
+
+  <section class="plosca">
+    <h2>Pogon osebnih avtomobilov v Sloveniji</h2>
+    <div class="kontrole">
+      <label>Vrsta vozila <select id="p-vrsta"></select></label>
+      <label>Meritev <select id="p-meritev"></select></label>
+      <label>Prikaz <select id="p-nacin"><option value="delez">Delež (%)</option><option value="stevilo">Število vozil</option></select></label>
+    </div>
+    <div class="graf"><canvas id="g-pogon"></canvas></div>
+  </section>
+
+  <section class="plosca">
+    <h2>S čim se vozimo v Mariboru in Ljubljani</h2>
+    <div class="kontrole">
+      <label>Leto <select id="t-leto"></select></label>
+    </div>
+    <div class="graf"><canvas id="g-poti"></canvas></div>
+    <p class="opomba" id="o-poti"></p>
+  </section>
+
+  <section class="plosca">
+    <h2>Kje parkirajo ljudje, ki na delo pridejo z avtom (Slovenija)</h2>
+    <div class="kontrole">
+      <label>Leto <select id="k-leto"></select></label>
+      <label>Spol <select id="k-spol"></select></label>
+    </div>
+    <div class="dva">
+      <div class="graf"><canvas id="g-parkiranje"></canvas></div>
+      <table id="t-parkiranje"><thead><tr><th>Kraj parkiranja</th><th class="st">Število</th><th class="st">Delež</th></tr></thead><tbody></tbody></table>
+    </div>
+    <p class="opomba" id="o-parkiranje"></p>
+  </section>
+</main>
+
+<footer id="noga">Viri: Statistični urad Republike Slovenije (SURS), SiStat, licenca CC BY 4.0.</footer>
+
+<script src="/static/vendor/chart.umd.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
