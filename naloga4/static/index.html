@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Svetovalec za parkiranje v Mariboru</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main>
+  <h1>Svetovalec za parkiranje v Mariboru</h1>
+  <p class="uvod">Vnesi cilj in čas prihoda. Strežnik sestavi vprašanje iz tvojih podatkov, vremena in cenika Marproma, jezikovni model pa predlaga, kje parkirati.</p>
+  <div id="opozorilo-llm" class="napaka" hidden></div>
+
+  <form id="obrazec">
+    <label class="velika">Cilj (naslov ali lokacija v Mariboru)
+      <input id="cilj" required minlength="2" maxlength="120" placeholder="npr. Glavni trg 1, UKC Maribor, FERI" value="Glavni trg">
+    </label>
+    <label>Datum <input id="datum" type="date" required></label>
+    <label>Ura prihoda <input id="ura" type="time" required></label>
+    <label>Trajanje (ur) <input id="trajanje" type="number" min="0.5" max="12" step="0.5" value="2" required></label>
+    <label>Namen
+      <select id="namen">
+        <option>nakupovanje</option><option>delo</option><option>obisk zdravnika</option><option>restavracija ali kultura</option><option>drugo</option>
+      </select>
+    </label>
+    <label>Vozilo
+      <select id="vozilo"><option>osebni avto</option><option>električni avto</option><option>avtodom</option></select>
+    </label>
+    <label>Največ hoje (min) <input id="hoja" type="number" min="1" max="30" value="10" required></label>
+    <button id="gumb" type="submit">Predlagaj parkiranje</button>
+  </form>
+
+  <div id="napaka" class="napaka" hidden></div>
+  <section id="rezultat" hidden>
+    <div id="vreme" class="vreme"></div>
+    <p id="povzetek" class="povzetek"></p>
+    <div id="kartice" class="kartice"></div>
+    <p id="opozorilo" class="opomba"></p>
+    <h2>Vse možnosti (izračunano na strežniku)</h2>
+    <table id="tabela"><thead><tr><th>Možnost</th><th class="st">Hoja</th><th class="st">Cena na uro</th><th class="st">Ocena cene</th><th>Opomba</th></tr></thead><tbody></tbody></table>
+    <details><summary>Vprašanje, poslano modelu</summary><pre id="prompt"></pre></details>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

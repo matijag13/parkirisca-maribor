@@ -1,0 +1,24 @@
+:root { --bg:#f6f7f9; --kartica:#fff; --besedilo:#1c2430; --tiho:#5b6675; --rob:#dde1e7; --poudarek:#c2410c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#14181d; --kartica:#1d232b; --besedilo:#e6e9ee; --tiho:#9aa5b3; --rob:#2e3742; --poudarek:#fb923c; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--besedilo); font:15px/1.5 system-ui,"Segoe UI",sans-serif; }
+main { max-width:900px; margin:0 auto; padding:28px 16px 40px; }
+h1 { margin:0 0 4px; font-size:1.6rem; } h2 { font-size:1.05rem; margin:24px 0 8px; }
+.uvod { color:var(--tiho); margin:0 0 18px; max-width:68ch; }
+form { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; background:var(--kartica); border:1px solid var(--rob); border-radius:10px; padding:16px; }
+label { display:flex; flex-direction:column; font-size:.8rem; color:var(--tiho); gap:3px; }
+label.velika { grid-column:1/-1; }
+input,select { font:inherit; color:var(--besedilo); background:var(--bg); border:1px solid var(--rob); border-radius:6px; padding:7px 9px; }
+button { grid-column:1/-1; font:inherit; font-weight:600; padding:10px; border:0; border-radius:8px; background:var(--poudarek); color:#fff; cursor:pointer; }
+button:disabled { opacity:.6; cursor:wait; }
+.napaka { background:#fdecea; color:#7a1f16; border:1px solid #f3b5ae; padding:8px 12px; border-radius:8px; margin:12px 0; }
+.vreme { color:var(--tiho); margin:18px 0 6px; }
+.povzetek { font-size:1.05rem; margin:0 0 12px; }
+.kartice { display:grid; gap:12px; }
+.kartica { background:var(--kartica); border:1px solid var(--rob); border-left:4px solid var(--poudarek); border-radius:10px; padding:12px 14px; }
+.kartica h3 { margin:0 0 4px; font-size:1rem; } .meta { color:var(--tiho); font-size:.85rem; }
+.opomba { color:var(--tiho); font-size:.85rem; }
+table { width:100%; border-collapse:collapse; font-size:.85rem; background:var(--kartica); }
+th,td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--rob); vertical-align:top; } .st { text-align:right; white-space:nowrap; }
+pre { white-space:pre-wrap; background:var(--kartica); border:1px solid var(--rob); border-radius:8px; padding:10px; font-size:.8rem; }
+summary { cursor:pointer; margin-top:16px; color:var(--tiho); }
